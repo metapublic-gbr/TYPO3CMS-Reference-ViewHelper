@@ -64,7 +64,7 @@ pass the extension name or use the full `LLL:` reference for the key.
 
 ..  code-block:: html
 
-    <f:translate key="domain_model.title" extension="my_extension" />
+    <f:translate key="domain_model.title" extensionName="my_extension" />
 
 The default language file must be saved in the extension specified in the
 argument, in the file :file:`Resources/Private/Language/locallang.xlf`.
